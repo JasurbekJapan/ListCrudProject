@@ -10,3 +10,13 @@ Bu loyiha `IGeneric<T>` interfeysi asosida C# tilida CRUD (Create, Read, Update,
 - 📦 Generic interfeyslar va repository pattern
 
 ## 📁 Loyihaning tuzilmasi
+CRUD/
+├── Models/
+│   └── Students.cs               📄 Talabalar modeli
+├── Services/
+│   ├── Interface/
+│   │   └── IGenericRegister.cs   📄 Generic interfeys
+│   └── RegisterService.cs        📄 CRUD amallarni bajaruvchi service
+├── Program.cs                    📄 Dastur kirish nuqtasi (Main method)
+├── CRUD.csproj                   📄 Loyihani tavsiflovchi fayl
+
